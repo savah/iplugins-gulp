@@ -1,0 +1,45 @@
+{
+  "name": "iplugins",
+  "description": "iplugins frontend automation",
+  "version": "1.0.0",
+  "author": "Paris Kapsouros",
+  "authorURI": "http://www.ikea.com.kw",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/savah/iplugins.git"
+  },
+  "scripts": {
+    "dev": "gulp",
+    "prod": "gulp build"
+  },
+  "engines": {
+    "node": ">=8.9.4"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.1",
+    "fs": "0.0.1-security",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-clean-css": "^3.9.3",
+    "gulp-concat": "^2.6.1",
+    "gulp-jshint": "^2.1.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^4.0.1",
+    "gulp-sequence": "^1.0.0",
+    "gulp-shell": "^0.6.5",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.0",
+    "jshint": "^2.9.5",
+    "jshint-stylish": "^2.2.1",
+    "merge-stream": "^1.0.1",
+    "mime": "^2.3.1",
+    "path": "^0.12.7"
+  },
+  "dependencies": {},
+  "browserslist": [
+    "> 1%",
+    "IE 10"
+  ]
+}
