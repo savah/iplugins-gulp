@@ -17,7 +17,7 @@ const stylish = require('jshint-stylish');
 gulp.task('browserSync', function () {
 	browserSync({
 		proxy: {
-			target: 'https://www.ikea.com/jo/en/',
+			target: 'https://www.ikea.com/xx/en/',
 			proxyReq: [
 				function(proxyReq) {
 					proxyReq.setHeader('Access-Control-Allow-Origin', '*');
